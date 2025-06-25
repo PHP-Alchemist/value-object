@@ -5,7 +5,6 @@ namespace PHPAlchemist\ValueObject\Abstract;
 use PHPAlchemist\ValueObject\Contract\VONumberInterface;
 
 /**
- *
  * @template-implements VONumberInterface<int>
  */
 abstract class AbstractVONumber implements VONumberInterface

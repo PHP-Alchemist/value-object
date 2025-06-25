@@ -6,6 +6,7 @@ use PHPAlchemist\ValueObject\Abstract\AbstractVONumber;
 
 /**
  * @final
+ *
  * @template-extends AbstractVONumber
  */
 final class VONumber extends AbstractVONumber

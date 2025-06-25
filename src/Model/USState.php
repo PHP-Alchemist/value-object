@@ -7,7 +7,9 @@ use PHPAlchemist\ValueObject\Abstract\AbstractVOString;
 
 /**
  * @final
+ *
  * @template-extends AbstractVOString
+ *
  * @psalm-suppress InvalidExtendClass
  */
 final class USState extends AbstractVOString
