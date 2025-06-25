@@ -64,6 +64,6 @@ class EmailTest extends TestCase
         $emailObject = new Email(self::VALID_EMAIL_VALUE);
         $tld         = $emailObject->getTld();
         $this->assertEquals('net', $tld);
-        $this->assertTrue( is_string($tld));
+        $this->assertTrue(is_string($tld));
     }
 }
