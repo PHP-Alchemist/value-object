@@ -57,7 +57,7 @@ interface VOStringInterface extends \Stringable
      */
     public function lastIndexOf(string $needle, int $startIndex = 0) : int|false;
 
-    public function length() : VONumberInterface;
+    public function length() : VONumberInterface|int;
 
     /**
      * @param mixed $needle

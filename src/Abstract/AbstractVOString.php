@@ -74,7 +74,7 @@ abstract class AbstractVOString implements VOStringInterface
      * @inheritDoc
      */
     #[\Override]
-    public function length() : VONumberInterface
+    public function length() : VONumberInterface|int
     {
         $length = strlen($this->value);
 
