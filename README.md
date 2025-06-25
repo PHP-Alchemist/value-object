@@ -1,4 +1,5 @@
 # PHP Alchemist Value Objects
+Package: `php-alchemist/value-object`
 
 ## What
 A basic framework for providing value objects with a few freebies.
