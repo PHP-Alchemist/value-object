@@ -1,6 +1,7 @@
 # PHP Alchemist Value Objects
 Package: `php-alchemist/value-object`
 
+[![Unit Tests](https://github.com/PHP-Alchemist/value-object/actions/workflows/php.yml/badge.svg)](https://github.com/PHP-Alchemist/value-object/actions/workflows/php.yml)
 [![StyleCI](https://github.styleci.io/repos/1008463665/shield?branch=master)](https://github.styleci.io/repos/1008463665?branch=master)
 
 ## What
