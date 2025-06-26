@@ -2,16 +2,10 @@
 
 namespace ValueObject\Unit;
 
-use PHPAlchemist\ValueObject\Abstract\AbstractVONumber;
-use PHPAlchemist\ValueObject\Abstract\AbstractVOString;
 use PHPAlchemist\ValueObject\Model\Email;
 use PHPAlchemist\ValueObject\Model\VONumber;
-use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
-#[CoversClass(Email::class)]
-#[CoversClass(AbstractVOString::class)]
-#[CoversClass(AbstractVONumber::class)]
 class EmailTest extends TestCase
 {
     const string VALID_EMAIL_VALUE = 'stuff@things.net';
